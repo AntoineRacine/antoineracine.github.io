@@ -90,7 +90,7 @@ nav {
 h3 {
     float: left;
     font-weight: 300;
-    padding-left: 55px;
+    padding-left: 50px;
     padding-right: 30px;
 }
 
@@ -181,7 +181,7 @@ li.dropdown {
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: justify;
-    padding-left: 140px;
+    padding-left: 50px;
     padding-right: 268px;
     padding top: 35px;
 }
@@ -194,7 +194,7 @@ li.dropdown {
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: justify;
-    padding-left: 140px;
+    padding-left: 50px;
     padding-right: 268px;
     padding top: 35px;
 }
@@ -208,7 +208,7 @@ li.dropdown {
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: justify;
-    padding-left: 140px;
+    padding-left: 50px;
     padding-right: 268px;
     padding top: 35px;
 }
@@ -252,7 +252,7 @@ li.dropdown {
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: left;
-    padding-left: 140px;
+    padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 7px;
 }
@@ -266,7 +266,7 @@ li.dropdown {
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: left;
-    padding-left: 140px;
+    padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 7px;
 }
@@ -280,7 +280,7 @@ li.dropdown {
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: left;
-    padding-left: 140px;
+    padding-left: 50px;
     padding-bottom: 20px;
 }
 
