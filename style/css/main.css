@@ -1,0 +1,276 @@
+@import "buttons";
+@import "fonts";
+@import "typography";
+// @import "~bootstrap/scss/bootstrap.scss";
+
+
+
+.post.content {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    padding-left: 170px;
+    padding top: 35px;
+}
+
+p {
+    font-size: 13px;
+    font-family: 'Arial';
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 140px;
+}
+
+
+.page-title {
+    font-size: 28px;
+    font-family: 'Verdana';
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    word-spacing: 0.1px;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    text-orientation: upright ;
+    padding-left: 140px;
+    padding-bottom: 35px;
+    padding-top: 80px; 
+}
+
+#page-title-unique {
+    font-size: 22px;
+    font-family: 'Arial';
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color:rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 140px;
+    padding-right: 20px;
+    padding-top: 13px;
+    float: left;
+    
+}
+
+body {  
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+footer {
+    font-size: 7px;
+    font-family: 'Arial';
+    font-size: 10px;
+    padding-top: 25px;   
+    padding-left: 70px;
+    text-align: left;
+}
+
+nav {
+    font-size:17px;
+    font-family: 'Arial';
+    font-weight: 400;
+    letter-spacing:;
+    line-height: 35px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding-top: 14px;
+    padding-left: 0px;
+    margin: auto;
+    text-align: center;
+    float: left; 
+}
+
+h3 {
+    float: left;
+    font-weight: 300;
+    padding-left: 55px;
+    padding-right: 30px;
+}
+
+
+nav ul {   
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    list-style-type: none;
+    margin: auto;
+    text-align: left;
+    
+}
+    
+
+    ul:hover {
+        color:rgb(0, 0, 255);
+    }
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding-left:5px;
+    padding-right: 20px;
+    position: relative;
+}
+
+nav ul li ul {
+    display: grid;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    padding-left: 670px;
+    padding-right: 0px;
+}
+
+nav ul li:focus-within ul {
+    display: grid;
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+}
+
+
+nav ul li ul li:hover{
+    display: grid;
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+nav ul li ul li {
+    width: 400px; 
+    padding: 3px 1px; 
+    line-height: 55px;
+}
+
+
+nav ul li ul li a {
+    padding: 3px 1px; 
+    line-height: 25px;
+}
+
+nav ul li ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+ /* LINKS */
+
+ a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:hover {
+    color: rgb(58, 247, 0);
+  }
+  
+  a:active {
+    color: rgb(0, 0, 255);
+  } 
+
+
+ /* P */
+
+.texte1 {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Arial';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 140px;
+    padding-right: 125px;
+    padding top: 35px;
+}
+
+.texte2 {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Arial';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 140px;
+    padding-right: 268px;
+    padding top: 35px;
+}
+
+.texte3 {
+    font-size: 12px;
+    line-height: 19px;
+    font-family: 'Arial';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 140px;
+    padding-right: 268px;
+    padding top: 35px;
+}
+
+.texte4 {
+    font-size: 14x;
+    line-height: 19px;
+    font-family: 'Arial';
+    letter-spacing: 1.1px;
+    word-spacing: 4px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 140px;
+    padding-right: 268px;
+    padding top: 35px;
+}
+
+.cartouche1 {
+    font-size: 13px;
+    line-height: 19px;
+    font-family: 'Arial';
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 140px;
+    padding-right: 55px;
+    padding top: 35px;
+}
+
+.intertitre {
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 0.3px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 140px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.crédits {
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Arial';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 140px;
+    padding-bottom: 20px;
+}
+
+   /* le style "active" des liens ne reste pas une fois le post ouvert? */
+
