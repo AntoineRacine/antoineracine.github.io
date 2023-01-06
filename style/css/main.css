@@ -7,6 +7,7 @@
 
 .post.content {
     font-size: 15px;
+    font-family: 'Avenir Next';
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: center;
@@ -16,14 +17,14 @@
 
 p {
     font-size: 13px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: left;
     padding-left: 140px;
 }
 
-
+/*
 .page-title {
     font-size: 28px;
     font-family: 'Verdana';
@@ -39,10 +40,11 @@ p {
     padding-bottom: 35px;
     padding-top: 80px; 
 }
+*/
 
 #page-title-unique {
     font-size: 22px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 35px;
@@ -63,7 +65,7 @@ body {
 
 footer {
     font-size: 7px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     font-size: 10px;
     padding-top: 25px;   
     padding-left: 70px;
@@ -72,7 +74,7 @@ footer {
 
 nav {
     font-size:17px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     font-weight: 400;
     letter-spacing:;
     line-height: 35px;
@@ -100,61 +102,39 @@ nav ul {
     margin: auto;
     text-align: left;
     
-}
-    
+} 
 
     ul:hover {
         color:rgb(0, 0, 255);
     }
 
-nav ul li {
+nav ul li, .dropbtn{
     display: inline;
     list-style: none;
     padding-left:5px;
-    padding-right: 20px;
+    padding-right: 12px;
     position: relative;
 }
 
-nav ul li ul {
-    display: grid;
+li.dropdown {
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
     position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    cursor: pointer;
-    padding-left: 670px;
-    padding-right: 0px;
-}
-
-nav ul li:focus-within ul {
-    display: grid;
-    opacity: 1;
-    pointer-events: all;
-    visibility: visible;
-}
-
-
-nav ul li ul li:hover{
-    display: grid;
-    opacity: 1;
-    pointer-events: all;
-}
-
-
-nav ul li ul li {
-    width: 400px; 
-    padding: 3px 1px; 
-    line-height: 55px;
-}
-
-
-nav ul li ul li a {
-    padding: 3px 1px; 
-    line-height: 25px;
-}
-
-nav ul li ul li a:hover {
     background-color: rgb(0, 0, 0);
-}
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+    margin-left: -111px;
+    margin-right: -360px;
+    z-index: 1;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: inline-block;
+  }
 
 
  /* LINKS */
@@ -168,21 +148,22 @@ nav ul li ul li a:hover {
     color: rgb(255, 255, 255);
   }
   
-  a:hover {
+  a:hover, .dropdown:hover .dropbtn {
     color: rgb(58, 247, 0);
   }
   
-  a:active {
+  a:target {
     color: rgb(0, 0, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
   } 
-
 
  /* P */
 
 .texte1 {
     font-size: 14px;
     line-height: 19px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     letter-spacing: 0.2px;
     color: rgb(255, 255, 255);
     margin: auto;
@@ -195,7 +176,7 @@ nav ul li ul li a:hover {
 .texte2 {
     font-size: 14px;
     line-height: 19px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     letter-spacing: 0.2px;
     color: rgb(255, 255, 255);
     margin: auto;
@@ -208,7 +189,7 @@ nav ul li ul li a:hover {
 .texte3 {
     font-size: 12px;
     line-height: 19px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     letter-spacing: 0.2px;
     color: rgb(255, 255, 255);
     margin: auto;
@@ -221,7 +202,7 @@ nav ul li ul li a:hover {
 .texte4 {
     font-size: 14x;
     line-height: 19px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     letter-spacing: 1.1px;
     word-spacing: 4px;
     color: rgb(255, 255, 255);
@@ -233,23 +214,39 @@ nav ul li ul li a:hover {
 }
 
 .cartouche1 {
+    position: fixed;
+    writing-mode: vertical-lr;
+    bottom: 20px;
+    right: 20px;    
+    font-size: 13px;
+    line-height: 19px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.2px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+
+/*
+.cartouche1 {
+    position: fixed;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    bottom: 20px;
+    right: 20px;    
     font-size: 13px;
     line-height: 19px;
     font-family: 'Arial';
-    letter-spacing: 0.2px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: left;
-    padding-left: 140px;
-    padding-right: 55px;
-    padding top: 35px;
+    letter-spacing: -1.5px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);  
 }
+*/
 
 .intertitre {
     font-size: 14px;
     line-height: 30px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     letter-spacing: 0.3px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
@@ -260,10 +257,25 @@ nav ul li ul li a:hover {
     padding-bottom: 7px;
 }
 
+.titre {
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.3px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 140px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+
 .crédits {
     font-size: 14px;
     line-height: 23px;
-    font-family: 'Arial';
+    font-family: 'Avenir Next';
     letter-spacing: 0.2px;
     color: rgb(255, 255, 255);
     margin: auto;
