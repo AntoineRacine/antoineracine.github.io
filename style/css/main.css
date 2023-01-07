@@ -13,16 +13,145 @@
     text-align: center;
     padding-left: 50px;
     padding top: 35px;
+
 }
 
 p {
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 19px;
     font-family: 'Avenir Next';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+/* P */
+
+.texte1 {
+    width: 1150px;
+    display: inline-block; 
+    padding top: 35px;
+    padding-right: 50px;
+
+}
+
+.texte2 {
+    font-size: 14px;h
+    line-height: 19px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 268px;
+    padding top: 35px;
+}
+
+.texte3 {
+    font-size: 12px;
+    line-height: 19px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 268px;
+    padding top: 35px;
+}
+
+.texte4 {
+    font-size: 14x;
+    line-height: 19px;
+    font-family: 'Avenir Next';
+    letter-spacing: 1.1px;
+    word-spacing: 4px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 268px;
+    padding top: 35px;
+}
+
+.cartouche1 {
+    position: fixed;
+    writing-mode: vertical-lr;
+    bottom: 20px;
+    right: 20px;    
+    font-size: 13px;
+    line-height: 2px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.2px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+
+/*
+.cartouche1 {
+    position: fixed;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    bottom: 20px;
+    right: 20px;    
+    font-size: 13px;
+    line-height: 19px;
+    font-family: 'Arial';
+    letter-spacing: -1.5px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);  
+}
+*/
+
+.intertitre {
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.3px;
+    font-weight: bolder;
     color: rgb(255, 255, 255);
     margin: auto;
     text-align: left;
     padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 7px;
 }
+
+.titre {
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.3px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+
+.crédits {
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Avenir Next';
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+   /* le style "active" des liens ne reste pas une fois le post ouvert? */
+
+
+
 
 /*
 .page-title {
@@ -158,131 +287,4 @@ li.dropdown {
     text-decoration-color: rgb(255, 255, 255);
   } 
 
- /* P */
-
-.texte1 {
-    font-size: 14px;
-    line-height: 19px;
-    font-family: 'Avenir Next';
-    letter-spacing: 0.2px;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 125px;
-    padding top: 35px;
-}
-
-.texte2 {
-    font-size: 14px;h
-    line-height: 19px;
-    font-family: 'Avenir Next';
-    letter-spacing: 0.2px;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 268px;
-    padding top: 35px;
-}
-
-.texte3 {
-    font-size: 12px;
-    line-height: 19px;
-    font-family: 'Avenir Next';
-    letter-spacing: 0.2px;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 268px;
-    padding top: 35px;
-}
-
-.texte4 {
-    font-size: 14x;
-    line-height: 19px;
-    font-family: 'Avenir Next';
-    letter-spacing: 1.1px;
-    word-spacing: 4px;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 268px;
-    padding top: 35px;
-}
-
-.cartouche1 {
-    position: fixed;
-    writing-mode: vertical-lr;
-    bottom: 20px;
-    right: 20px;    
-    font-size: 13px;
-    line-height: 19px;
-    font-family: 'Avenir Next';
-    letter-spacing: 0.2px;
-    font-weight: normal;
-    color: rgb(255, 255, 255);
-}
-
-
-/*
-.cartouche1 {
-    position: fixed;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    bottom: 20px;
-    right: 20px;    
-    font-size: 13px;
-    line-height: 19px;
-    font-family: 'Arial';
-    letter-spacing: -1.5px;
-    font-weight: normal;
-    color: rgb(255, 255, 255);  
-}
-*/
-
-.intertitre {
-    font-size: 14px;
-    line-height: 30px;
-    font-family: 'Avenir Next';
-    letter-spacing: 0.3px;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 7px;
-}
-
-.titre {
-    font-size: 15px;
-    line-height: 30px;
-    font-family: 'Avenir Next';
-    letter-spacing: 0.3px;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 7px;
-}
-
-
-.crédits {
-    font-size: 14px;
-    line-height: 23px;
-    font-family: 'Avenir Next';
-    letter-spacing: 0.2px;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: left;
-    padding-left: 50px;
-    padding-bottom: 20px;
-}
-
-   /* le style "active" des liens ne reste pas une fois le post ouvert? */
-
+ 
