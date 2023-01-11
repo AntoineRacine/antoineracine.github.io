@@ -13,7 +13,6 @@
     text-align: center;
     padding-left: 50px;
     padding top: 35px;
-
 }
 
 p {
@@ -98,22 +97,6 @@ p {
 }
 
 
-/*
-.cartouche1 {
-    position: fixed;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    bottom: 20px;
-    right: 20px;    
-    font-size: 13px;
-    line-height: 19px;
-    font-family: 'Arial';
-    letter-spacing: -1.5px;
-    font-weight: normal;
-    color: rgb(255, 255, 255);  
-}
-*/
-
 .intertitre {
     font-size: 14px;
     line-height: 30px;
@@ -157,26 +140,6 @@ p {
 
    /* le style "active" des liens ne reste pas une fois le post ouvert? */
 
-
-
-
-/*
-.page-title {
-    font-size: 28px;
-    font-family: 'Verdana';
-    letter-spacing: 0.3px;
-    font-weight: 400;
-    word-spacing: 0.1px;
-    letter-spacing: 0.2px;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: left;
-    text-orientation: upright ;
-    padding-left: 140px;
-    padding-bottom: 35px;
-    padding-top: 80px; 
-}
-*/
 
 #page-title-unique {
     font-size: 19px;
