@@ -149,7 +149,7 @@ p {
 
 
 #page-title-unique {
-    font-size: 19px;
+    font-size: 22px;
     font-family: 'Avenir Next';
     font-weight: 500;
     letter-spacing: 1px;
@@ -158,7 +158,7 @@ p {
     margin: auto;
     text-align: left;
     padding-left: 50px;
-    padding-right: 20px;
+    padding-right: 15px;
     padding-top: 13px;
     float: left;
     
@@ -235,7 +235,7 @@ li.dropdown {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 35px;
-    margin-left: -83px;
+    margin-left: -80px;
     margin-right: -360px;
     z-index: 1;
   }
@@ -247,7 +247,7 @@ li.dropdown {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 35px;
-    margin-left: -43px;
+    margin-left: -70px;
     margin-right: -360px;
     z-index: 1;
   }
