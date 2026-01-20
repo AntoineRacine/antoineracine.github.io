@@ -34,6 +34,9 @@ header {
     z-index: 1000;  /* stay on top */
 }
 
+.mobile_menu {
+    display: none;
+  } 
 
 .page, .page-title, .post, .post-title {
     margin-top: 0px;
@@ -56,6 +59,17 @@ header {
     padding-top: 35px;
     float: left;
     z-index: 10;
+}
+
+.index_title {
+    font-size: 30px;
+    font-family: 'Avenir Next';
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color:rgb(255, 255, 255);
+    position: fixed;
+    padding-bottom: 55px;
 }
 
 footer {
@@ -109,6 +123,7 @@ p {
     padding-top: 0px;
     box-sizing: border-box;
 }
+
 nav {
     position: fixed;
     font-size:15px;
@@ -129,6 +144,7 @@ h1 {
     margin: 0px;
     padding: 0px;
 }
+
 h3 {
     float: left;
     font-weight: 300;
@@ -345,7 +361,6 @@ img {
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 .container,.main,.content {
@@ -376,6 +391,32 @@ html, body {
 .sidebar {
     display: none;
   }
+
+.mobile_menu {
+    display: block; 
+  } 
+
+nav {
+    position: relative;
+    font-size:15px;
+    font-family: 'Avenir Next';
+    font-weight: 400;
+    line-height: 30px;
+    color:rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 0px;
+    margin: auto;
+    text-align: left;
+} 
+
+nav ul {   
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    padding: 0 !important;
+} 
 
 table {
     display: block;
