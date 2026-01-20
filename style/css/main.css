@@ -311,4 +311,22 @@ li.dropdown {
     padding-bottom: 20px;
 }
 
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}  
+
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 20px;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+
+}  
+
 @import url("./custom.css");
