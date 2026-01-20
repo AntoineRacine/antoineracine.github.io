@@ -72,6 +72,11 @@ header {
     padding-bottom: 55px;
 }
 
+.test {
+  text-align: right;
+}
+
+
 footer {
     font-size: 7px;
     font-family: 'Avenir Next';
@@ -97,7 +102,7 @@ content {
 .main,
 .content,
 .post {
-    margin-left: 280px;
+    margin-left: 320px;
     margin-top: 40px;
     margin-right: 40px;
 }
