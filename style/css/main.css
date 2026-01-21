@@ -387,7 +387,7 @@ html, body {
 @media screen and (max-width: 768px) {
 
   p {
-    line-height: 1.7;
+    line-height: 1.6;
     font-size: 14px;
     padding-left: 0 !important;
 
@@ -397,11 +397,11 @@ html, body {
   .main,
   .content,
   .post {
-    width: 100% !important;
+    width: 90% !important;
     max-width: 100% !important;
     padding: 12px;
-    margin: 0;
-    margin-left: 0 !important;
+    margin-left: 5px !important;
+    margin: 0 auto !important;
 
   }
 
